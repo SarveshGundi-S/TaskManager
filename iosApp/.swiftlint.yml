@@ -1,0 +1,14 @@
+type_name:
+  excluded:
+    - iOSApp
+    - .spm_cache
+    - .derived
+    - iOSApp.xcodeproj
+    - Package
+
+#Reporter type
+reporter: "xcode"
+
+#Disable Rules
+disabled_rules:
+- trailing_whitespace #often autoformatted differently by xcode
